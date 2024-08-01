@@ -6,9 +6,6 @@ This repository contains code and examples for using the Digispark ATTINY85V2 bo
 
 - [Installation](#installation)
 - [Setting Up Arduino IDE](#setting-up-arduino-ide)
-- [Example Code](#example-code)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -50,3 +47,14 @@ For macOS and Linux:
 ### Step 4: Select Programmer
 
 1. Go to `Tools` -> `Programmer` and select `Micronucleus`.
+
+
+
+
+### Some special cases:
+
+1. If you're using Windows 10/11 go and check out [this video](https://youtu.be/uUcmAPKvQ4Q?si=cIA6QycCpTjwKnZ0)
+2. If you're using Ubuntu go and check [this video](https://youtu.be/N7CuQZMnLcw?si=0IMT-QQFcZnZwvQY)
+3. If you're using MacOS go and check [this video](https://youtu.be/hVQubqgdoZg?si=yPYhG3GT60Bnm8gM)
+4. If you're using arch based distros (Arch, Blackarch, Garuda, Athena etc.) open the `Terminal`and type
+`sudo pacman -Syu avr-gcc avr-libc avrdude micronucleus arduino`
