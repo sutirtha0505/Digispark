@@ -2,7 +2,7 @@
 
 void setup() {
   // Wait for the system to recognize the device
-  DigiKeyboard.delay(10000);
+  DigiKeyboard.delay(5000);
 
   // Open the terminal using Ctrl + Alt + T
   DigiKeyboard.sendKeyStroke(0);
